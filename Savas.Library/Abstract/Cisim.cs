@@ -96,7 +96,7 @@ namespace Savas.Library.Abstract
             if (Top == 0) return true;
             var yeniTop = Top - HareketMesafesi;
             var tasacakMi = yeniTop < 0;
-            Left = tasacakMi ? 0 : yeniTop;
+            Top = tasacakMi ? 0 : yeniTop;
             return Top == 0;
         }
     }
