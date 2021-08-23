@@ -11,7 +11,7 @@ namespace Savas.Desktop
         public AnaForm()
         {
             InitializeComponent();
-            _oyun = new Oyun(ucakSavarPanel);
+            _oyun = new Oyun(ucakSavarPanel,savasAlaniPanel);
             _oyun.GecenSureDegisti += Oyun_GecenSureDegisti;
         }
 
