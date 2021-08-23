@@ -85,5 +85,11 @@
   <ItemGroup>
     <Content Include="space_hopper.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Savas.Library\Savas.Library.csproj">
+      <Project>{16a4b1cc-4777-4716-b213-f07f1c0f54cf}</Project>
+      <Name>Savas.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
