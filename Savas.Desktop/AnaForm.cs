@@ -1,4 +1,5 @@
 ﻿using Savas.Library.Concrete;
+using System;
 using System.Windows.Forms;
 
 namespace Savas.Desktop
@@ -9,6 +10,7 @@ namespace Savas.Desktop
         public AnaForm()
         {
             InitializeComponent();
+            _oyun.GecenSureDegisti += Oyun_GecenSureDegisti;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -34,6 +36,10 @@ namespace Savas.Desktop
                     break;
 
             }
+        }
+        private void Oyun_GecenSureDegisti(object sender, EventArgs e)
+        {
+            sureLabel.Text = _oyun.GecenSure.ToString(@"m\:ss");
         }
     }
 }

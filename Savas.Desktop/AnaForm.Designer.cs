@@ -83,11 +83,11 @@ namespace Savas.Desktop
             // sureLabel
             // 
             this.sureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sureLabel.Font = new System.Drawing.Font("Old English Text MT", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sureLabel.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sureLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.sureLabel.Location = new System.Drawing.Point(834, 9);
+            this.sureLabel.Location = new System.Drawing.Point(819, 9);
             this.sureLabel.Name = "sureLabel";
-            this.sureLabel.Size = new System.Drawing.Size(188, 87);
+            this.sureLabel.Size = new System.Drawing.Size(203, 87);
             this.sureLabel.TabIndex = 1;
             this.sureLabel.Text = "0:00";
             this.sureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
